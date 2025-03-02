@@ -1,4 +1,4 @@
-# Introduction to Walrus Sites
+ # Introduction to Walrus Sites
 
 *Walrus Sites* are "web"-sites that use Sui and Walrus as their underlying technology. They are a
 prime example of how Walrus can be used to build new and exciting decentralized applications. Anyone
@@ -11,7 +11,7 @@ At a high level, here are some of the most exciting features:
 - Publishing a site does not require managing servers or complex configurations; just provide the
   source files (produced by your favorite web framework), publish them to Walrus Sites using the
   [site-builder tool](./overview.md#the-site-builder), and you are done!
-- Sites can be linked to from ordinary Sui objects. This feature enables, for example, creating an
+- Sites can be linked to ordinary Sui objects. This feature enables, for example, creating an
   NFT collection in which *every single NFT* has a *personalized website dedicated to it*.
 - Walrus Sites are owned by addresses on Sui and can be exchanged, shared, and updated thanks to
   Sui's flexible programming model. This means, among other things, that Walrus Sites can leverage
@@ -56,7 +56,7 @@ In summary:
 - The subdomain on the URL points to a specific object on Sui that allows the browser to fetch and
   render the site resources. This pointer can be
   - a SuiNS name, such as `flatland` in `https://flatland.walrus.site`, or
-  - the Base36 encoding of a the Sui object ID, such as `0x644bc958...` in the example above.
+  - the Base36 encoding of the Sui object ID, such as `0x644bc958...` in the example above.
 
 Curious to know how this magic is possible? Read the [technical overview](./overview.md)! If you
 just want to get started trying Walrus Sites out, check the [tutorial](./tutorial.md).
